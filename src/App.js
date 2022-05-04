@@ -3,7 +3,7 @@ import './App.css';
 import React, { useEffect, useState } from "react";
 import ImgContainer from './components/ImgContainer';
 
-const url = "https://thingproxy.freeboard.io/fetch/https://imsea.herokuapp.com/api/1?q=";
+const url = "https://cors-anywhere.herokuapp.com/https://imsea.herokuapp.com/api/1?q=";
 
 function App() {
   const [searchText, setSearchText] = useState("Kutaisi");
