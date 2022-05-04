@@ -1,38 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .App {
   text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  margin-left: 10%;
+  width: 50%;
+  background: #f1f1f1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#searchButton {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+
+}
+
+#searchButton:hover {
+  background: #0c62a8;
+}
+
+#searchButton::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#mode {
+  margin: 5px;
+  position: relative;
+  left: 9vw;
+  background-image: url("./images/Sun_icon.svg.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+}
+
+
+.card {
+  display: inline-block;
+  background-color: white;
+  height: 230px;
+  margin: 0 12px 12px 0;
+  padding: 0 6px 0 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+img {
+  top: 6px;
+  height: 188px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  max-width: 90vw;
+}
+
+
+
+img:hover {
+  transform: scale(1.02, 1.02);
+}
+
+#downloadButton {
+  margin-top: 11px;
+  background-color: rgb(70, 149, 228);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#downloadButton:hover {
+  background-color: rgb(21, 57, 167);
+
+}
+
+.dark-mode {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.moon {
+  background-image: url("./images/moon.jpg") !important;
 }
