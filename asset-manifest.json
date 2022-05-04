@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Image-search/static/css/main.0e2d1a83.css",
-    "main.js": "/Image-search/static/js/main.6f2d85bf.js",
-    "static/js/787.8afc25db.chunk.js": "/Image-search/static/js/787.8afc25db.chunk.js",
-    "static/media/Sun_icon.svg.png": "/Image-search/static/media/Sun_icon.svg.df8ea49656be84c448e5.png",
-    "static/media/moon.jpg": "/Image-search/static/media/moon.a4024267afa8a9ec6bca.jpg",
-    "index.html": "/Image-search/index.html",
-    "main.0e2d1a83.css.map": "/Image-search/static/css/main.0e2d1a83.css.map",
-    "main.6f2d85bf.js.map": "/Image-search/static/js/main.6f2d85bf.js.map",
-    "787.8afc25db.chunk.js.map": "/Image-search/static/js/787.8afc25db.chunk.js.map"
+    "main.css": "/static/css/main.95e2b944.css",
+    "main.js": "/static/js/main.1464721d.js",
+    "static/js/787.8afc25db.chunk.js": "/static/js/787.8afc25db.chunk.js",
+    "static/media/Sun_icon.svg.png": "/static/media/Sun_icon.svg.df8ea49656be84c448e5.png",
+    "static/media/moon.jpg": "/static/media/moon.a4024267afa8a9ec6bca.jpg",
+    "index.html": "/index.html",
+    "main.95e2b944.css.map": "/static/css/main.95e2b944.css.map",
+    "main.1464721d.js.map": "/static/js/main.1464721d.js.map",
+    "787.8afc25db.chunk.js.map": "/static/js/787.8afc25db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e2d1a83.css",
-    "static/js/main.6f2d85bf.js"
+    "static/css/main.95e2b944.css",
+    "static/js/main.1464721d.js"
   ]
 }
