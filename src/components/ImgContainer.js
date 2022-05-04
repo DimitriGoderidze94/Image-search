@@ -27,7 +27,7 @@ const ImgContainer = (props) => {
                         <img src={img} alt="" />
                     </a>
                     <br />
-                    <button class="fa fa-download" id="downloadButton" onClick={() => downloadImage(img)}>download</button>
+                    <button className="fa fa-download" id="downloadButton" onClick={() => downloadImage(img)}>download</button>
                 </div>
             ))}
         </div>
