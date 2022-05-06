@@ -23,7 +23,7 @@ const ImgContainer = (props) => {
             {props.imgLinks.map((img, index) => (
                 index % 2 === 0 &&
                 <div className='card' key={img}>
-                    <a href={img} target="blank">
+                    <a rel="noreferrer" href={img} target="_blank">
                         <img src={img} alt="" />
                     </a>
                     <br />
